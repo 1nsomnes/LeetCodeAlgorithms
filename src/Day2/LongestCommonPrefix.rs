@@ -1,3 +1,4 @@
+// #14
 pub fn longest_common_prefix(strs: Vec<String>) -> String {
     let mut result = String::new();
     let strs:Vec<Vec<char>> = strs.into_iter().map(|word| word.chars().collect()).collect();

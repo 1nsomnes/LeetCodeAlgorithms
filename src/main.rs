@@ -1,6 +1,3 @@
-use crate::Day1::HappyNumber::is_happy;
-use crate::Day1::SpiralMatrix::spiral_order;
-
 mod Day1 {
     pub mod HappyNumber;
     pub mod SpiralMatrix;
@@ -13,6 +10,6 @@ mod Day2 {
 }
 
 fn main() {
-
-    println!("Hello, world!");
+    let hello:String = String::from("Hello, World!");
+    println!("{}", hello);
 }
